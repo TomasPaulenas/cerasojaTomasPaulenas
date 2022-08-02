@@ -59,7 +59,7 @@
     border-style:solid
 }
 #fondo{
-background-color: pink;
+    background-image: linear-gradient( white , beige , pink);
 }
 ul li{
     list-style: none;
