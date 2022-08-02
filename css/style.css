@@ -1,0 +1,190 @@
+.imagenfond{
+   width: 500x;
+   height:500px;
+   display: inline-block;
+ 
+}
+.cerasojain{
+    font-size: xx-large;
+    text-align: center;
+    background-image:url(https://media.istockphoto.com/photos/advent-four-purple-candles-with-blurry-lights-picture-id1286899794?b=1&k=20&m=1286899794&s=170667a&w=0&h=X6cRyW9JezyIamz5QhtJFZJsx7Ve4L1yzwdI2XTxNbQ=) ;
+}
+#logo{
+
+    width: 200px;
+    height: 200px;
+    margin: 10px 300px 10px 0px;
+}
+.footer{
+    text-align: center;
+}
+
+#titulo{
+    text-align: right;
+    background-color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#items{
+
+    text-align: center;
+}
+
+
+    
+.neutro{
+    grid-template-rows: auto;
+    background-color: pink;
+    width: 500px;
+    height: 500px;
+    overflow: auto;
+    text-align: center;
+    margin: auto;
+   
+}
+#logonosotros{
+    text-align: right;
+}
+#descripcion{
+    text-align: left;
+}
+#cerasojain{
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-style:solid
+}
+#fondo{
+background-image: linear-gradient( white, beige, pink);
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: center;
+    background-color: beige;
+    padding: 0px 0px 20px 80px;
+    margin: 0px 0px 0px 0px;
+    border-style:solid ;
+ 
+    
+}
+.menu{
+    list-style: circle;
+    text-align: center;
+    display: inline-block;
+    
+}
+#tabla{
+    background-color: pink;
+    text-align: center;
+   margin: auto;
+}
+.kit{
+    width: 450px;
+    height: 450px;
+}
+#consultas{
+    margin: auto;
+    text-align: center;
+}
+#gridprincipal{
+   display: grid;
+   grid-template-columns: 1fr 3fr;
+
+}
+#titulokit{
+    font-size: x-large;
+    text-align: center;
+    background-image:url(https://media.istockphoto.com/photos/advent-four-purple-candles-with-blurry-lights-picture-id1286899794?b=1&k=20&m=1286899794&s=170667a&w=0&h=X6cRyW9JezyIamz5QhtJFZJsx7Ve4L1yzwdI2XTxNbQ=) ;
+
+}
+
+@media screen and (min-width: 320px) {
+    #gridprincipal {
+        display: grid;
+        grid-template-columns: 1fr;
+         
+
+     }
+     .menu {
+     
+        list-style: circle;
+        width: 10rem;
+        height: 100%;
+        text-align: left;
+        display:list-item;
+        padding: 0% 0% 0% 0%;
+    } 
+    #titulo{
+        text-align: right;
+        background-color: beige;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border-style: solid;
+        display: flex;
+        justify-content: center;
+        
+
+}
+.imagenfond{
+    width: 100%;
+    height:100%;
+    display: inline-block;
+
+    } 
+    .neutro{
+        grid-template-rows: auto;
+        background-color: pink;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        text-align: center;
+       
+}
+}
+
+
+
+@media screen and (min-width: 1200px)
+{
+    ul li{
+        list-style: none;
+        display: inline-block;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: large;
+        text-align: center;
+        background-color: beige;
+        padding: 0px 0px 20px 80px;
+        margin: 0px 0px 0px 0px;
+        border-style:solid ;
+
+}
+.menu{
+    display: grid;
+    padding: 80% 0% 0% 0%;
+    list-style: circle;
+    text-align: center;
+    display: inline;}
+
+    .imagenfond{
+        width: 400px;
+   height: 400px;
+        display: inline-block;}
+        
+
+}
+.neutro{
+    grid-template-rows: auto;
+    background-color: pink;
+    width: 500px;
+    height: 500px;
+    overflow: auto;
+    text-align: center;
+    margin: auto;
+   
+}
