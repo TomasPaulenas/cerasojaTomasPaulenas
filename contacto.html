@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap-5.2.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.2.0-dist/css/style.css">
 
     <link rel="shortcut icon" href="media/logo.jpeg">
     
@@ -21,11 +22,11 @@
     <header>
         
         <ul class="menu">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="nosotros.html"> Quienes somos </a></li>
-            <li><a href="productos.html">Productos</a></li>
-            <li><a href="kits.html">Kits</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="index.html" href="#" class="link-dark">Inicio</a></li>
+            <li><a href="nosotros.html" href="#" class="link-dark"> Quienes somos </a></li>
+            <li><a href="productos.html" href="#" class="link-dark">Productos</a></li>
+            <li><a href="kits.html" href="#" class="link-dark">Kits</a></li>
+            <li><a href="contacto.html" href="#" class="link-dark">Contacto</a></li>
         </ul>
         
     </header>
@@ -43,35 +44,16 @@
                  <form method="GET" enctype="multipart/form-data" id="consultas">
                    <fieldset>
                         <legend>Dejanos tu consulta:</legend>
+                    </div>
         
-                        <label for="nombre">Nombre:</label>
-                        <br>
-                        <input type="text" name="nombre" value="Nombre">
-                        <br>
-        
-                        <label for="Apellido">Apellido:</label>
-                        <br>
-                        <input type="text" name="Apellido" value="Apellido" >
-                        
-                        <br>
-                        <label for="Mail">Mail:</label>
-                        <br>
-                        <input type="text" name="Mail" value="Mail">
-                        <br>
-                        
-                        <br>
-                        <label for="consulta">Consulta:</label>
-                        <br>
-                        <input type="text" name="Consulta" value="Consulta" >
-                        
-        
-                        <input type="submit" name="enviar" value="Enviar">
-                    </fieldset>
-
-                </form>
-                
-                
-            </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Correo electronico</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
 
         </article>
     </section>
@@ -80,11 +62,11 @@
     </aside>
     <footer id="footer">
         <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="nosotros.html"> Quienes somos </a></li>
-            <li><a href="productos.html">Productos</a></li>
-            <li><a href="kits.html">Kits</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="index.html" href="#" class="link-dark">Inicio</a></li>
+            <li><a href="nosotros.html" href="#" class="link-dark"> Quienes somos </a></li>
+            <li><a href="productos.html" href="#" class="link-dark">Productos</a></li>
+            <li><a href="kits.html" href="#" class="link-dark">Kits</a></li>
+            <li><a href="contacto.html" href="#" class="link-dark">Contacto</a></li>
         </ul>
         <br>
         Copyright: Todos los derechos reservados

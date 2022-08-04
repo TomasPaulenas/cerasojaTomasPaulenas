@@ -59,7 +59,7 @@
     border-style:solid
 }
 #fondo{
-    background-image: linear-gradient( white , beige , pink);
+background-color: pink;
 }
 ul li{
     list-style: none;
@@ -84,6 +84,12 @@ ul li{
     background-color: pink;
     text-align: center;
    margin: auto;
+}
+.mb-3{
+    text-align: center;
+    margin: auto;
+    padding: 80% 0% 0% 0%;
+    
 }
 .kit{
     width: 450px;
