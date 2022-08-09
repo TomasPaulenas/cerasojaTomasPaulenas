@@ -1,5 +1,5 @@
 .imagenfond{
-   width: 500x;
+   width: 500px;
    height:500px;
    display: inline-block;
  
@@ -15,8 +15,15 @@
     height: 200px;
     margin: 10px 300px 10px 0px;
 }
+
+link, a:visited, a:active {
+    text-decoration:none;
+}
 .footer{
     text-align: center;
+}
+body{
+    background-image: radial-gradient(pink , beige, white );
 }
 
 #titulo{
@@ -34,7 +41,11 @@
 
     text-align: center;
 }
-
+.fotito{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
 
     
 .neutro{
@@ -59,7 +70,7 @@
     border-style:solid
 }
 #fondo{
-background-image: linear-gradient( white, beige, pink);
+background-color: pink;
 }
 ul li{
     list-style: none;
@@ -84,6 +95,12 @@ ul li{
     background-color: pink;
     text-align: center;
    margin: auto;
+}
+.mb-3{
+    text-align: center;
+    margin: auto;
+    padding: 80% 0% 0% 0%;
+    
 }
 .kit{
     width: 450px;
