@@ -1,0 +1,26 @@
+.titulo {
+  background-color: rgb(206, 166, 172);
+}
+.titulo h1 {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.abs.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+div .cerasojain {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: xx-large;
+  background-color: rgb(206, 166, 172);
+}
+
+body {
+  background-image: radial-gradient(pink, beige, rgb(189, 147, 147));
+}/*# sourceMappingURL=index.css.map */

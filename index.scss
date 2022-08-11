@@ -1,0 +1,39 @@
+@import "variable";
+
+
+.titulo{
+    background-color:$colorfondo;
+    
+        h1{
+        font-family: $letratip;
+        text-align: center;
+        font-size: xx-large;
+        }
+}
+#menu{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+   
+}
+
+
+.form{
+width: 500px;
+}
+
+div{
+    .cerasojain{
+        text-align: center;
+        font-family: $letratip;
+        font-size: xx-large;
+        background-color:$colorfondo;
+       
+            }
+    }
+
+    
+body{
+    background-image: radial-gradient(pink, beige,rgb(189, 147, 147));
+}
