@@ -2,20 +2,29 @@
 
 
 .titulo{
-    background-color:$colorfondo;
+    background-color: map-get($map: $general , $key: color )
     
-        h1{
-        font-family: $letratip;
-        text-align: center;
-        font-size: xx-large;
-        }
+       
 }
-#menu{
+
+@mixin nombre {
+    height: $height;
+    width: $width;
+    
+}
+
+.menu{
     display:flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 100px;
+    @include nombre(150px, 100px)
    
+}
+
+.menu2{
+    @extend .menu;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -28,7 +37,7 @@ div{
         text-align: center;
         font-family: $letratip;
         font-size: xx-large;
-        background-color:$colorfondo;
+        background-color: map-get($map: $colordefondo , $key: color )
        
             }
     }
@@ -37,3 +46,4 @@ div{
 body{
     background-image: radial-gradient(pink, beige,rgb(189, 147, 147));
 }
+

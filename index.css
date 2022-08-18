@@ -1,17 +1,19 @@
 .titulo {
-  background-color: rgb(206, 166, 172);
-}
-.titulo h1 {
-  font-family: sans-serif;
-  text-align: center;
-  font-size: xx-large;
+  background-color: rgb(206, 166, 172) h1;
+  background-color-font-family: sans-serif;
+  background-color-text-align: center;
+  background-color-font-size: xx-large;
 }
 
-.abs.center {
+.menu {
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+}
+
+.form {
+  width: 500px;
 }
 
 div .cerasojain {
